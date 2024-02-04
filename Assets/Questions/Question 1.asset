@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4953fd6eda1c9b4a9e80fafa1513241, type: 3}
+  m_Name: Question 1
+  m_EditorClassIdentifier: 
+  question: "What is the correct syntax for creating a new integer variable with
+    an inital value \nof 12?"
+  answers:
+  - int num = 12;
+  - Int num = "12";
+  - Int num = 12;
+  - int num = "12";
+  correctAnswerIndex: 0
